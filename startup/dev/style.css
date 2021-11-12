@@ -19,12 +19,12 @@ time, mark, audio, video {
 	vertical-align: baseline;
 } */
 
-.body{
-Width:960px;
-height:auto;
+  .body{
+    Width:960px;
+    height:auto;
 }
 
-.img {
+  .img {
     width: 960px;
     height: 50%px;display: flex;
     flex-flow: column;
@@ -33,7 +33,7 @@ height:auto;
     margin: auto;
 }
 
-.h1{
+  .h1{
     font-family: Open sans;
     font-size: 72px;
     font-style: bolder;
@@ -41,13 +41,13 @@ height:auto;
     text-align: center;
 } 
 
-.header {
+  .header {
     position: relative;
     text-align: center;
     color: transparent;
   }
   
-   .text_center {
+  .text_center {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -60,18 +60,15 @@ height:auto;
   }
 
   .logo{
-    width:2rem;
-    height:2rem;
+    width:10px;
+    height:10px;
     float: left;
+    text-align: center;
   }
 
-   .item{
-      flex-direction: column;
-  } 
-
-  .images{
-      width: 20px;
-      height:20px;
+  .image{
+    width: 50px;
+    height:50px;
   }
 
 
@@ -141,6 +138,8 @@ ul.burgerMenu {
   
   }
   
+
+  /*bouton*/
    .bouton {
        background-color:  #90AFC5 ;
        margin: 10px;
@@ -159,4 +158,20 @@ ul.burgerMenu {
        background-color: #336b87;
      }
     
+     /*picto*/
+     .picto{
+       width:15px;
+       height:15px;
+       display: flex;
+       justify-content: space-between;
+       margin-left: 95%;
+     }
+
+     /*separation*/
+     .hr{
+      text-decoration-line:underline;
+      text-decoration-color:#2a3132;
+      text-decoration-style:dashed;
+     }
   
+   
